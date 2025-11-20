@@ -1,0 +1,19 @@
+{
+  "extends": "expo/tsconfig.base",
+    "compilerOptions": {
+      "strict": true,
+      "paths": {
+        "@/*": [
+          "./*"
+        ]
+      }
+    },
+    "include": [
+      "**/*.ts",
+      "**/*.tsx",
+      ".expo/types/**/*.ts",
+      "expo-env.d.ts",
+      "nativewind-env.d.ts"
+  , "app/index.jsx", "app/(main)/postDetails.jsx", "app/(main)/home.jsx", "app/(main)/editProfile.jsx", "app/(main)/newPost.jsx", "app/(main)/notification.jsx", "app/(main)/profile.jsx", "app/login/signIn.jsx", "app/login/signUp.jsx", "app/_layout.jsx", "app/(tabs)/welcome.jsx"  ]
+ 
+}

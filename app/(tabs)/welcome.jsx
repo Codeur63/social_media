@@ -27,7 +27,7 @@ const Welcome = () => {
       <View className=' flex-1 justify-around items-center mx-10 align-middle'>
         {/* Welcome Image */}
         <Image
-        source={require('../../assets/images/afro.png')}
+        source={require("../../assets/images/afro.png")}
         className='h-96 w-96 rounded-lg '
         resizeMode='contain'
       />

@@ -12,8 +12,12 @@
       "supportsTablet": true,
       "infoPlist": {
         "NSPhotoLibraryAddUsageDescription": "Permet à l'application d'enregistrer des fichiers."
-      }
+      },
+      "bundleIdentifier": "com.codeur63.Social-Media"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
